@@ -28,7 +28,7 @@ a{
   	border-radius: 10px 10px 0 0;
   	margin-bottom: 2em;
   	overflow: hidden;
-  	
+  	padding-bottom: .8em;
 	-webkit-box-shadow:0px 4px 7px rgba(0,0,0,.5) ;
 	-moz-box-shadow:0px 4px 7px rgba(0,0,0,.5) ;
 	-ms-box-shadow:0px 4px 7px rgba(0,0,0,.5) ;
@@ -47,6 +47,12 @@ a{
 .tools__list{
 	padding-left: 1.5em;
 	list-style: none;
+}
+.tool_text{
+	color: black;
+}
+.tool_text:hover{
+	color: red;
 }
 .not-padding{
 	padding: 0;
@@ -88,6 +94,53 @@ a{
 	.hidden_md_lg_xs{
 	display: block;
 }
+}
+
+.footer__content--tittle{
+	border-bottom:1px #cfd1d3 solid;
+	border-top:1px #cfd1d3 solid;
+	font-size:1.1em;
+	padding-bottom: .5em;
+	padding-top: .5em;
+  	margin-bottom: 1em;
+}
+.footer__content--list{
+	list-style: none;
+  	margin: 0;
+  	padding: 0;
+}
+.footer__content--list li a{
+	font-size: 0.9em;
+	text-decoration: none;
+	color: #000000;
+}
+.footer__content--list li a:hover{
+	color: red;
+}
+.footer__content--list li{
+
+	margin-bottom: .3em;
+}
+.list_icon_social li{
+	display: inline-block;
+}
+.list_icon_social li:nth-child(2){
+	margin: 0 .5em 0 .5em;
+}
+.footer__copyright{
+	text-align: center;
+	text-align: center;
+	width: 100%;
+	border-top:1px #cfd1d3 solid;
+	margin:.5em 0 0 0;
+	padding-top: 1em;
+	padding-bottom: 2em;
+}
+.footer--logo{
+	margin-bottom: .5em;
+}
+.copyright--text{
+	font-size: 0.9em
 }
 
 #fondoContenedor{
