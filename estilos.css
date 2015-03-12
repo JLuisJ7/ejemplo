@@ -17,7 +17,12 @@ a{
   	border-radius: 10px 10px 0 0;
   	margin-bottom: 2em;
   	overflow: hidden;
-
+  	
+	-webkit-box-shadow:0px 4px 7px rgba(0,0,0,.5) ;
+	-moz-box-shadow:0px 4px 7px rgba(0,0,0,.5) ;
+	-ms-box-shadow:0px 4px 7px rgba(0,0,0,.5) ;
+	-o-box-shadow:0px 4px 7px rgba(0,0,0,.5) ;
+	box-shadow:0px 4px 7px rgba(0,0,0,.5) ;
 }
 .tools__title{
 	  width: 100%;
@@ -65,6 +70,14 @@ a{
 	height:15px;															
 	background-image:url(imagenes/link_icon.jpg);								
 }													
+.hidden_md_lg_xs{
+	display: none;
+}
+@media (min-width: 768px) and (min-width: 922px){ 
+	.hidden_md_lg_xs{
+	display: block;
+}
+}
 
 #fondoContenedor{
 	width:100%;
