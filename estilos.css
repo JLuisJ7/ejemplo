@@ -229,8 +229,7 @@ width: 100%;
 
 }
 .footer__content--tittle{
-	border-bottom:1px #cfd1d3 solid;
-	border-top:1px #cfd1d3 solid;
+	font-weight: bold;
 	font-size:1.1em;
 	padding-bottom: .5em;
 	padding-top: .5em;
@@ -264,8 +263,8 @@ width: 100%;
 	text-align: center;
 	width: 100%;
 	border-top:1px #cfd1d3 solid;
-	margin:.5em 0 0 0;
-	padding-top: 1em;
+	margin:2.5em 0 0 0;
+	padding-top: 2em;
 	padding-bottom: 2em;
 }
 .footer--logo{
